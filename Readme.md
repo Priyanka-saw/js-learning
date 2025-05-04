@@ -1,4 +1,4 @@
-## Js is the dynamically typed language
+- Js is the dynamically typed language
 
  javaScript is the single thread
 
@@ -50,20 +50,20 @@ eg - imagine ordering online , you can go about your day and get a notifications
 depends upon conditions--
 
  
-## json formatter website used to formate the api data
+ json formatter website used to formate the api data
 
-## how to get api of any users
+ how to get api of any users
 
 [api.github.com/users/priyanka-saw]
 
-## XMLHttpReqest : used to connect with servers , this enables a web pages to updates just part of a page without disrupting what the user is doing  
+ XMLHttpReqest : used to connect with servers , this enables a web pages to updates just part of a page without disrupting what the user is doing  
 
-## can retrive any types of data , not just only XML
+ can retrive any types of data , not just only XML
 
-## it is used heavily in AJAX programming
-## (AJAX)Asynchronous Javascript and XML
+ it is used heavily in AJAX programming
+ (AJAX)Asynchronous Javascript and XML
 
-## Value	State	Description
+ Value	State	Description
 0 	UNSENT	Client has been created. open() not called yet.
 
 1	OPENED	open() has been called.
@@ -75,10 +75,10 @@ depends upon conditions--
 4	DONE	The operation is complete. 
 
 
-## promise
+ promise
 The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
-# three states
+ three states
 - pending: initial state, neither fulfilled nor rejected.
 - fulfilled: meaning that the operation was completed successfully.
 - rejected: meaning that the operation failed
