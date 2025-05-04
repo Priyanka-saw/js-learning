@@ -1,60 +1,49 @@
-md: markdown
 ## Js is the dynamically typed language
 
-## javaScript is the single thread
+ javaScript is the single thread
 
-## Stack and heap memory :
-## primitive data type goes to stack we get a copy of that value,
+ Stack and heap memory :
+ primitive data type goes to stack we get a copy of that value,
 
-## Non-Primitive datatype goes to Heap we get a reference of that value.
+ Non-Primitive datatype goes to Heap we get a reference of that value.
  
-## null -> datatypes -> object
-## function -> datatypes -> objectFunction
+ null -> datatypes -> object
+ function -> datatypes -> objectFunction
 
-## object can be decleared in two ways :
-## 1. literals 2. constructor
+ object can be decleared in two ways :
+ 1. literals 2. constructor
 
-## literals se singleton nahi banta but,
-## constructor se singleton banta hai
+ literals se singleton nahi banta but,
+ constructor se singleton banta hai
  
-## how js work behind the scene**(later)
-
-## JavaScript Execution context are : 
+ JavaScript Execution context are : 
 two are important 
-## 1.Global execution context
-## 2.Function Execution Context
-## 3.Eval Execution context
+ 1.Global execution context
+ 2.Function Execution Context
+ 3.Eval Execution context
 
 diagram on dom
-## window --> Document --> html -->1.head, 2.body
+ window --> Document --> html -->1.head, 2.body
 ![click here](Dom_Structure.png)
 
-#way of writing code 
+ All about Synchronous
+ default javascript behaviour
+ javascript --> Synchronous(One by one code executions), Single thread
 
-```javascript
-
-console.log("hello world")
-
-```
-
-## All about Synchronous
-## default javascript behaviour
-## javascript --> Synchronous(One by one code executions), Single thread
-
-## Execution context --> execute one line of code at a time 
+ Execution context --> execute one line of code at a time 
 like 
-## !->console log - 1 (1 will print)
-## !->console log - 2 (2 will print)
+ !->console log - 1 (1 will print)
+ !->console log - 2 (2 will print)
 
-## each operations waits for the last one to complete before executing
+ each operations waits for the last one to complete before executing
 
 
-## task queue make javascript fast
+ task queue make javascript fast
 
-## Synchronous execution means task happen in a sequential, blocked manner --> where one task must finish before the next start --> also known as the blocking execution
+ Synchronous execution means task happen in a sequential, blocked manner --> where one task must finish before the next start --> also known as the blocking execution
 eg - imagine a restaurant, you have to wait until your meal is prepared before you can eat
 
-## Asynchronous allows task to run concurrently , without blocking other operations --> task can overlap and run independently of each other --> also known as the non-blocking execution
+ Asynchronous allows task to run concurrently , without blocking other operations --> task can overlap and run independently of each other --> also known as the non-blocking execution
 eg - imagine ordering online , you can go about your day and get a notifications when your order is ready
 
 --Its prefered to use the asynchronous but its totally 
@@ -97,12 +86,12 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 ![Promise-workflow](promiseDiagram.png)
 
 
-# OOPS
+ OOPS
 javascript does have classes, but its important ot note that javascript is primarily a (prototype-based language)
 - given syntactic sugar (so that developers can make class and objects)
 
 
-## parts of oop
+ parts of oop
 Object literals 
 
 - Constructor
@@ -110,11 +99,11 @@ Object literals
 - Classes
 - Instances (new, this)
 
-## 4 pilars
+ 4 pilars
 - Abstraction
 - Encapsulations
 - Inheritances
 - Polymophism
 
-#prototype
+ prototype
 - prototypes are the mechanism by which javascript objects inherit features from one  another
