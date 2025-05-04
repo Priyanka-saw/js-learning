@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #414141;
+    color: #fff;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(117, 202, 174);
+    padding: 12px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 20px 0px;
+}
+#images{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 12px;
+
+}
+ul #google{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+p{
+    margin: 25px 15px 20px 15px;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 16px;
+}
